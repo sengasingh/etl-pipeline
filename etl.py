@@ -18,7 +18,7 @@ def run_names(names):
     print(f"Upserted {load_pokemon(engine, rows)} rows")
 
 if __name__ == "__main__":
-    # Example: just Greninja
+    # example: just Greninja
     run_names(["greninja"])
-    # Or: a page
+    # or: a page
     # run_batch(limit=50, offset=0)
